@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/codemic/static/css/main.41215f20.css",
+    "main.js": "/codemic/static/js/main.2dd3b9d8.js",
+    "static/js/453.05fde983.chunk.js": "/codemic/static/js/453.05fde983.chunk.js",
+    "static/media/logo.svg": "/codemic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/codemic/index.html",
+    "main.41215f20.css.map": "/codemic/static/css/main.41215f20.css.map",
+    "main.2dd3b9d8.js.map": "/codemic/static/js/main.2dd3b9d8.js.map",
+    "453.05fde983.chunk.js.map": "/codemic/static/js/453.05fde983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41215f20.css",
+    "static/js/main.2dd3b9d8.js"
+  ]
+}
