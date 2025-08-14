@@ -1,0 +1,128 @@
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: #b968ff;
+}
+
+.container {
+  background-color: #f8f9fa;
+}
+
+.contact-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px #3f51b5;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #e8f0ff;
+  margin-right: 10px;
+  color: #b968ff;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #b968ff;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px #3f51b5;
+}
+
+.row.align-items-start {
+    margin-top: 50px;
+}
+
+.Right.col-lg-6.text-start {
+    margin-top: 20px;
+    padding: 0px 0px 0px 80px;
+}
+
+  .con_btn{
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    padding: 10px 0px 10px 190px;
+    background-color: #b968ff;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold
+  }
+                      
+  .con-btn:hover {
+    /* background-color: #0b5ed7; */
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #3f51b5;
+  }
+
+/* Custom breakpoints */
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 796px) {
+  .contact-card {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 481px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+a.mb-0 {
+    text-decoration: none;
+    color: black;
+}
+
+ a.mb-0:hover {
+    /* background-color: #0b5ed7; */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #3f51b5;
+  }

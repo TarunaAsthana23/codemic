@@ -1,0 +1,29 @@
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: #b968ff;
+}
+
+.icon-box {
+  font-size: 2rem;
+  color: #b968ff;
+}
+
+.service-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px #3f51b5;
+}
+
+/* Custom breakpoint for ~418px */
+@media (max-width: 418px) {
+  .service-card {
+    text-align: center !important;
+  }
+}

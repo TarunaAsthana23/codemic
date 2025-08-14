@@ -1,0 +1,27 @@
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: #b968ff;
+}
+
+.quote-box {
+  background-color: #f0f6ff; /* Light blue background */
+  border-left: 4px solid #b968ff; /* Blue vertical line */
+  padding-left: 15px; /* Space after line */
+  /* font-weight: bold;  */
+  color: #000; /* Black text */
+  font-size: 1.3rem;
+}
+
+.about-icon {
+  color: #b968ff; /* Blue color for all icons */
+  vertical-align: middle; /* Text ke sath center align */
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: rgb(0 2 4) !important;
+}
+.par.mb-4{
+    color: #000000;
+}
