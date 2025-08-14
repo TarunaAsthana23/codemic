@@ -10,7 +10,25 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
 
+  
+   // ✅ Dynamic Hero Padding Fix
+  useEffect(() => {
+    const updateHeroPadding = () => {
+      const navbar = document.querySelector(".navbar");
+      const hero = document.querySelector(".hero-section");
+      if (navbar && hero) {
+        const navHeight = navbar.offsetHeight;
+        hero.style.paddingTop = `${navHeight}px`;
+      }
+    };
 
+    updateHeroPadding();
+    window.addEventListener("resize", updateHeroPadding);
+    return () => window.removeEventListener("resize", updateHeroPadding);
+  }, []);
+
+
+  
    // Scroll effect for navbar background
 
   useEffect(() => {
@@ -47,9 +65,10 @@ const Header = () => {
     // <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light bg-white/90 shadow' : 'navbar-light' }`}>
       // <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light custom-scroll-navbar shadow' : 'navbar-light bg-transparent'}`}>
       <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light custom-scroll-navbar shadow' : 'navbar-light bg-transparent'}`}>
-      <div className="container-fluid px-3 px-sm-4 px-md-5">
+      <div className="container-fluid px-3 px-sm-4 px-md-6">
+        {/* <div className="container-fluid px-3 px-sm-4 px-md-5 d-flex justify-content-between"> */}
         <a className="navbar-brand d-flex align-items-center" href="#home">
-          <img src="/Sets/Logo.png" alt='Logo' className='navbar-logo' />
+          <img src="/Sets/Logo_1.png" alt='Logo' className='navbar-logo' />
           {/* <img src="/Sets/Logo.png" alt='Logo' className='navbar-logo img-fluid' /> */}
 
         </a>

@@ -1,7 +1,7 @@
 /* Logo image size */
 
 .navbar-logo {
-  height: 50px; /* apne hisaab se height set karo */
+  height: 45px; /* apne hisaab se height set karo */
   width: auto;
 }
 
@@ -48,7 +48,7 @@ a.navbar-brand {
   border-bottom: 3px solid #b968ff;
   padding-bottom: 0px !important; /* underline ko text ke paas le aata hai */
     /* transform: translateY(-5px); */
-  box-shadow: 0 8px 16px #3f51b5;
+  /* box-shadow: 0 8px 16px #3f51b5; */
 }
 
 .nav-link.active::after {
@@ -58,7 +58,8 @@ a.navbar-brand {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #000; 
+  /* background-color: #000;  */
+  box-shadow: 0 8px 16px #41354b;
   /* Underline color */
 }
 
@@ -187,17 +188,20 @@ a.navbar-brand {
 
 /* WhatsApp icon color override */
 a.nav-link.text-success {
-  background-color: #25d366;
-  border-radius: 5px;
-  padding: 6px 10px;
-  display: inline-block;
+      height: 50px;
+    width: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    margin: 0 35px; /* extra spacing */
+  padding: 0; /* unnecessary padding remove */
 }
 
 a.nav-link.text-success i {
-  color: white;
-  font-size: 1.4rem;
-  vertical-align: middle;
-  line-height: 1;
+   color: white;
+  font-size: 1.6rem; /* icon bada */
 }
 
 a.nav-link.text-success:hover {
@@ -215,6 +219,18 @@ a.nav-link:hover{
 
 /* Hide fullscreen menu on desktop */
 @media (min-width: 991px) {
+
+  .navbar-logo {
+    height: 40px;
+  }
+
+  a.nav-link.text-success {
+    height: 45px;
+    width: 45px;
+  }
+  a.nav-link.text-success i {
+    font-size: 1.5rem;
+  }
   .fullscreen-menu {
     display: none !important;
   }
@@ -223,7 +239,13 @@ a.nav-link:hover{
     display: flex !important;
     flex-direction: row;
     gap: 20px;
+    margin-right: -40px;
   }
+
+  a.navbar-brand {
+   margin-left: -40px; /* logo thoda aur left side */
+}
+
   /* Hide hamburger icon on desktop */
   .navbar-toggler {
     display: none;

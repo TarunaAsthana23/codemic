@@ -10,7 +10,7 @@ const Hero = () => {
 
                 {/* Right side image (mobile & tablet pe upar, desktop pe right) */}
           <div className="col-12 col-md-6 text-center order-1 order-md-2 mb-4 mb-md-0">
-            <img src="/Sets/hero_bg.png" alt="Hero" className="hero-img img-fluid" />
+            <img src="/Sets/hero_bg_1.png" alt="Hero" className="hero-img img-fluid" />
           </div>
           
                {/* Left side text (mobile me neeche, desktop me left) */}
@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="d-flex flex-column flex-sm-row gap-3 align-items-center align-items-sm-start">
               <a href="#contact" className="btn d-inline-block"> &#9830; Get a Free Consultation &#9830;</a>
-              <a href="#Services" className="btn d-inline-block"> &#9830; Explore Our Services &#9830;</a>
+              <a href="#services" className="btn d-inline-block"> &#9830; Explore Our Services &#9830;</a>
               
                   {/* <a href="#contact" className="btn btn-primary d-inline-block "> &#9830; Get a Free Consultation &#9830;</a>
                   <a href="#Services" className="btn btn-primary d-inline-block "> &#9830; Explore Our Services &#9830;</a> */}
