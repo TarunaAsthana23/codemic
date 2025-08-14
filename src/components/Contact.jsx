@@ -52,7 +52,8 @@ const Contact = () => {
               </div>
               <div>
                 <h6 className="fw-bold mb-1">Address</h6>
-                <a href="" className="mb-0">Laxmi Nagar, Delhi, India</a>
+                {/* <a href="" className="mb-0">Laxmi Nagar, Delhi, India</a> */}
+                <p className="mb-0">Laxmi Nagar, Delhi, India</p>
               </div>
             </div>
 
@@ -72,7 +73,8 @@ const Contact = () => {
               </div>
               <div>
                 <h6 className="fw-bold mb-1">Website</h6>
-                <a href="" className="mb-0">www.asthana.in</a>
+                <p className="mb-0">www.asthana.in</p>
+                {/* <a href="" className="mb-0">www.asthana.in</a> */}
               </div>
             </div>
 

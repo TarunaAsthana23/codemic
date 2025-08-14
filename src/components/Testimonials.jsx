@@ -83,17 +83,19 @@ const Testimonials = () => {
         
         
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
           slidesPerView={1}
           navigation
-          pagination={{ clickable: true }}
-          loop={false} // no looping because we manually control direction
-          onSwiper={(swiper) => {
-            swiperRef.current = { swiper };
-          }}
-          style={{ paddingBottom: "40px" }}
-        >
+          pagination={{ clickable: true }} 
+          loop={true} // autoplay ke liye loop on rakhna better hota hai //// no looping because we manually control direction
+          autoplay={{
+    delay: 3000, // 3 seconds delay
+    disableOnInteraction: false, // click/drag ke baad bhi chalta rahe
+    reverseDirection: false, // yaha ping-pong nahi hoga
+  }}
+  style={{ paddingBottom: "40px" }}
+>
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
 
