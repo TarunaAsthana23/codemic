@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       {/* Quick Links */}
-      <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+      <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <h5 className="fw-bold">Quick Links</h5>
         <ul className="list-unstyled">
           <li><a href="#home" className="text-light text-decoration-none">Home</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
       {/* Contact Info */}
-      <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4  py-3">
+      <div className="col-12 col-sm-6 col-md-4 col-lg-4 mb-4 ">
         <h5 className="fw-bold">Contact Info</h5>
         <ul className="list-unstyled">
           <li><a href="mailto:hiyasrivastava777@gmail.com" className="foot_con"><i className="fa fa-envelope me-2"></i></a>hiyasrivastava777@gmail.com</li>

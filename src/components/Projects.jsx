@@ -120,13 +120,13 @@ function Projects() {
                       <span key={i}>{iconMap[tool]}</span>
                     ))}
                   </div>
-                  <div className=" RepVer mt-3 d-flex flex-column gap-2 text-center">
-                    <a href={project.repoLink} target="_blank" rel="noreferrer" className="btn btn-sm">
+                  <div className=" RepVer mt-3 d-flex flex-column gap-2 text-center align-items-center align-items-sm-center">
+                    <a href={project.repoLink} target="_blank" rel="noreferrer" className="btn btn-sm ">
                     {/* <a href={project.repoLink} target="_blank" rel="noreferrer" className="btn btn-outline-light btn-sm"> */}
                       <FaGithub className="me-1" /> Repository
                     </a>
                     {project.vercelLink && (
-                      <a href={project.vercelLink} target="_blank" rel="noreferrer" className="btn btn-sm">
+                      <a href={project.vercelLink} target="_blank" rel="noreferrer" className="btn btn-sm ">
                       {/* <a href={project.vercelLink} target="_blank" rel="noreferrer" className="btn btn-outline-dark btn-sm"> */}
                         <SiVercel className="me-1" /> Vercel
                       </a>

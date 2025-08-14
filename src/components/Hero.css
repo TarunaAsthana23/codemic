@@ -63,3 +63,38 @@ a.btn.d-inline-block{
   transform: translateY(-5px);
   box-shadow: 0 8px 16px #3f51b5;
 }
+
+
+
+/* Animation Keyframes */
+@keyframes slideDownFade {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeftFade {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animation Classes */
+.animate-slide-down {
+  animation: slideDownFade 1s ease-out forwards;
+}
+
+.animate-slide-left {
+  animation: slideLeftFade 1s ease-out forwards;
+  animation-delay: 0.3s; /* Text thoda baad me aaye */
+}
