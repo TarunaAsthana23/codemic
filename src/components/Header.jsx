@@ -86,9 +86,9 @@ const Header = () => {
           <li className="nav-item">
             <a className={`nav-link ${activeLink === "services" ? "active" : ""}`} href="#services" onClick={() => handleLinkClick("services")}>Our Services</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className={`nav-link ${activeLink === "projects" ? "active" : ""}`} href="#projects" onClick={() => handleLinkClick("projects")}>Projects</a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className={`nav-link ${activeLink === "testimonials" ? "active" : ""}`} href="#testimonials" onClick={() => handleLinkClick("testimonials")}>Testimonials</a>
           </li>
@@ -121,9 +121,9 @@ const Header = () => {
           <li className="nav-item">
             <a className={`nav-link ${activeLink === "services" ? "active" : ""}`} href="#services" onClick={() => handleLinkClick("services")}>Our Services</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className={`nav-link ${activeLink === "projects" ? "active" : ""}`} href="#projects" onClick={() => handleLinkClick("projects")}>Projects</a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className={`nav-link ${activeLink === "testimonials" ? "active" : ""}`} href="#testimonials" onClick={() => handleLinkClick("testimonials")}>Testimonials</a>
           </li>
