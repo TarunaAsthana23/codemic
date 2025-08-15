@@ -76,9 +76,12 @@ const Header = () => {
              {/* Hamburger button for mobile */}
 
                {/* WhatsApp icon for mobile - hamburger ke side, mobile pe dikhai de */}
+               {/* WhatsApp + Hamburger - only show on mobile (d-lg-none) */}
+        <div className="d-flex align-items-center d-lg-none">
     <a
       href="https://wa.me/917985877742"
-      className="Wht nav-link text-success d-lg-none"
+      className="nav-link text-success me-2"
+      // className="nav-link text-success d-lg-none"
       target="_blank"
       rel="noopener noreferrer"
       title="Chat on WhatsApp"
@@ -87,6 +90,7 @@ const Header = () => {
                fa-sm    /* default chhota */
                fa-lg-md /* 768px+ par bada */
                "></i>
+               {/* <i className="fab fa-whatsapp fa-lg"></i> */}
 
     </a>
 
@@ -95,6 +99,7 @@ const Header = () => {
           <span className="bar"></span>
           <span className="bar"></span>
         </button>
+        </div>
               
          {/* Hamburger button for mobile */}
         
