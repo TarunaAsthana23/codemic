@@ -5,6 +5,10 @@
   background-color: #b968ff;
 }
 
+.about.row.align-items-center {
+    padding: 80px 0px 0px 0px;
+}
+
 .quote-box {
   background-color: #f0f6ff; /* Light blue background */
   border-left: 4px solid #b968ff; /* Blue vertical line */
@@ -25,3 +29,5 @@
 .par.mb-4{
     color: #000000;
 }
+
+

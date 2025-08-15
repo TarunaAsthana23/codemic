@@ -8,20 +8,20 @@ const About = () => {
     <section id="about" className="py-5">
         <div className="container text-center py-5">
           <h1 className="fw-bold">Who We Are</h1>
-          <div className="underline mx-auto my-2"></div>
-          <div className="row align-items-center">
+          <div className="underline mx-auto "></div>
+          <div className="about row align-items-center">
 
-            <div className="col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <div className="col-lg-6 col-sm-12 mb-4 mb-lg-0">
               <img src="/Sets/About.jpg" alt="About" className="img-fluid rounded shadow-sm" />
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 mb-4 ps-lg-5">
+            <div className="col-lg-6 col-sm-12 mb-4 ps-lg-5">
               {/* <div className="col-lg-6 col-md-6 col-sm-12 mb-4 ps-lg-4 text-center text-lg-start"> */}
               {/* <h1 className="about_1 mb-3 fw-bold fs-2 fs-md-3 text-center">Who We Are ?</h1> */}
               <p className="par mb-4">
                 Codemic is a forward-thinking software development company dedicated to transforming ideas into impactful digital solutions. 
                 From startups to enterprises, we help our clients innovate smarter, build faster, and elevate their business with tailor-made technology.
               </p>
-              <div className="quote-box p-3 rounded">
+              <div className="quote-box p-3 rounded col-lg-6 px-3 px-md-4 px-lg-0">
               <em>
                 "To bridge the gap between ideas and innovation by delivering cutting-edge, user-focused digital solutions."
               </em>

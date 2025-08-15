@@ -78,12 +78,16 @@ const Header = () => {
                {/* WhatsApp icon for mobile - hamburger ke side, mobile pe dikhai de */}
     <a
       href="https://wa.me/917985877742"
-      className="nav-link text-success d-lg-none me-2"
+      className="nav-link text-success d-lg-none"
       target="_blank"
       rel="noopener noreferrer"
       title="Chat on WhatsApp"
     >
-      <i className="fab fa-whatsapp fa-lg"></i>
+      <i className="fab fa-whatsapp 
+               fa-sm    /* default chhota */
+               fa-lg-md /* 768px+ par bada */
+               "></i>
+
     </a>
 
         <button className={`navbar-toggler ${menuOpen ? "open" : ""}`} type="button"  aria-label="Toggle menu" onClick={toggleMenu}>

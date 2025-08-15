@@ -1,7 +1,7 @@
 /* Logo image size */
 
 .navbar-logo {
-  height: 30px; /* apne hisaab se height set karo */
+  height: 25px; /* apne hisaab se height set karo */
   width: auto;
 }
 
@@ -188,14 +188,14 @@ a.navbar-brand {
 
 /* WhatsApp icon color override */
 a.nav-link.text-success {
-      height: 50px;
-    width: 50px;
+      height: 40px;
+    width: 40px;
     background-color: #25d366;
     border-radius: 50%;
     display: flex;
   align-items: center;
   justify-content: center;
-    margin: 0 35px; /* extra spacing */
+    margin: 0 15px; /* extra spacing */
   padding: 0; /* unnecessary padding remove */
 }
 
@@ -260,5 +260,22 @@ a.nav-link:hover{
     border-bottom: 2px solid #b968ff; /* mobile me bhi same color */
     color: #b968ff !important; /* active text color mobile me bhi */
   }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  a.nav-link.text-success {
+    margin: 0 0px 0px 150px; /* extra spacing */
+    padding: 0; /* unnecessary padding remove */
+}
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   .navbar-logo {
+    height: 40px;
+  }
+  a.nav-link.text-success {
+    margin: 0 0px 0px 320px; /* extra spacing */
+    padding: 0; /* unnecessary padding remove */
+}
 }
 
