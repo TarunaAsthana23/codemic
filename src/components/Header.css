@@ -195,7 +195,7 @@ a.nav-link.text-success {
     display: flex;
   align-items: center;
   justify-content: center;
-    margin: 0 50px; /* extra spacing */
+    margin: 0 15px; /* extra spacing */
   padding: 0; /* unnecessary padding remove */
 }
 
@@ -264,7 +264,7 @@ a.nav-link:hover{
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   a.nav-link.text-success {
-    margin: 0 0px 0px 200px; /* extra spacing */
+    margin: 0 0px 0px 300px; /* extra spacing */
     padding: 0; /* unnecessary padding remove */
 }
 
@@ -274,7 +274,7 @@ a.nav-link:hover{
     height: 40px;
   }
   a.nav-link.text-success {
-    margin: 0 0px 0px 320px; /* extra spacing */
+    margin: 0 0px 0px 400px; /* extra spacing */
     padding: 0; /* unnecessary padding remove */
 }
 }
