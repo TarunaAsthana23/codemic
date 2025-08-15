@@ -78,7 +78,7 @@ const Header = () => {
                {/* WhatsApp icon for mobile - hamburger ke side, mobile pe dikhai de */}
     <a
       href="https://wa.me/917985877742"
-      className="nav-link text-success d-lg-none"
+      className="Wht nav-link text-success d-lg-none"
       target="_blank"
       rel="noopener noreferrer"
       title="Chat on WhatsApp"
