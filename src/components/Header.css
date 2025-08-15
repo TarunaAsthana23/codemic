@@ -168,12 +168,12 @@ a.navbar-brand {
 }
 
 .fullscreen-menu ul.navbar-nav li.nav-item {
-  margin: 5px 0px 35px;
+  margin: 5px 0px 10px;
 }
 
 .fullscreen-menu ul.navbar-nav li.nav-item a.nav-link {
   color: white ;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -203,7 +203,7 @@ a.nav-link.text-success {
     display: flex;
   align-items: center;
   justify-content: center;
-    margin: 0 15px;
+    /* margin: 0 15px; */
      /* extra spacing */
   padding: 0; /* unnecessary padding remove */
 }
@@ -227,7 +227,7 @@ a.nav-link:hover{
 /* Responsive handling */
 
 /* Hide fullscreen menu on desktop */
-@media (min-width: 991px) {
+@media (min-width: 768px) {
 
   .navbar-logo {
     height: 40px;
@@ -244,7 +244,7 @@ a.nav-link:hover{
     display: none !important;
   }
   /* Show desktop nav links */
-  .navbar-nav.d-none.d-lg-flex {
+  .navbar-nav.d-none.d-md-flex {
     display: flex !important;
     flex-direction: row;
     gap: 20px;
@@ -301,4 +301,10 @@ a.nav-link:hover{
     /* unnecessary padding remove */
 /* }
 } */
+
+@media (min-width: 991px) {
+  .navbar-logo {
+    height: 30px;
+  }
+}
 

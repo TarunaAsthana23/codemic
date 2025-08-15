@@ -65,8 +65,9 @@ const Header = () => {
     // <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light bg-white/90 shadow' : 'navbar-light' }`}>
       // <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light custom-scroll-navbar shadow' : 'navbar-light bg-transparent'}`}>
       <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light custom-scroll-navbar shadow' : 'navbar-light bg-transparent'}`}>
-      <div className="container-fluid px-3 px-sm-4 px-md-6">
-        {/* <div className="container-fluid px-3 px-sm-4 px-md-5 d-flex justify-content-between"> */}
+      <div className="container px-3 px-sm-4 px-md-6">
+        {/*   <div className="container-fluid px-3 px-sm-4 px-md-6">
+              <div className="container-fluid px-3 px-sm-4 px-md-5 d-flex justify-content-between"> */}
         <a className="navbar-brand d-flex align-items-center" href="#home">
           <img src="/Sets/Logo_1.png" alt='Logo' className='navbar-logo' />
           {/* <img src="/Sets/Logo.png" alt='Logo' className='navbar-logo img-fluid' /> */}
@@ -77,7 +78,7 @@ const Header = () => {
 
                {/* WhatsApp icon for mobile - hamburger ke side, mobile pe dikhai de */}
                {/* WhatsApp + Hamburger - only show on mobile (d-lg-none) */}
-        <div className="d-flex align-items-center d-lg-none">
+        <div className="d-flex align-items-center d-md-none">
     <a
       href="https://wa.me/917985877742"
       className="nav-link text-success me-4"
@@ -104,7 +105,7 @@ const Header = () => {
          {/* Hamburger button for mobile */}
         
         {/* Desktop nav links (visible on desktop), hidden on mobile ==== desktop size */}
-    <ul className="navbar-nav ms-auto text-center text-lg-start d-none d-lg-flex">
+    <ul className="navbar-nav ms-auto text-center text-md-start d-none d-md-flex">
       <li className="nav-item">
             <a className={`nav-link ${activeLink === "home" ? "active" : ""}`} href="#home" onClick={() => handleLinkClick("home")}>Home</a>
           </li>

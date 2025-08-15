@@ -9,13 +9,13 @@ const Footer = () => {
     <div className="row">
 
       {/* About Codemic */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 ">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
         <h5 className="fw-bold mb-3">About Codemic</h5>
         <p>Codemic is your trusted technology partner for software, websites, and digital growth.</p>
       </div>
 
       {/* Quick Links */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-right">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
         <h5 className="fw-bold mb-3">Quick Links</h5>
         <ul className="list-unstyled">
           <li><a href="#home" className="text-light text-decoration-none">Home</a></li>
@@ -28,18 +28,18 @@ const Footer = () => {
 
       {/* Contact Info */}
       <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 ">
-        <h5 className="fw-bold mb-3">Contact Info</h5>
+        <h5 className="fw-bold mb-3 text-center">Contact Info</h5>
         <ul className="list-unstyled">
-          <li><a href="mailto:hiyasrivastava777@gmail.com" className="foot_con"><i className="fa fa-envelope me-2"></i></a>hiyasrivastava777@gmail.com</li>
-          <li><a href="tel:+917985877742" className="foot_con"><i className="fa fa-phone me-2"></i></a> +91 7985877743</li>
-          <li><p className="foot_con text-white"><i className="fa fa-map-marker me-2" style={{ color: '#b968ff' }} ></i> Laxmi Nagar, Delhi, India </p></li>
+          <li className="foot_con mx-5" ><a href="mailto:hiyasrivastava777@gmail.com" className="foot_con_1" ><i className="fa fa-envelope me-2"></i></a>hiyasrivastava777@gmail.com</li>
+          <li className="foot_con mx-5"><a href="tel:+917985877742" className="foot_con_1"><i className="fa fa-phone me-2"></i></a> +91 7985877743</li>
+          <li className="foot_con mx-5"><p className="foot_con_1 text-white"><i className="fa fa-map-marker me-2" style={{ color: '#b968ff' }} ></i> Laxmi Nagar, Delhi, India </p></li>
           {/* <li><a href="" className="foot_con"><i className="fa fa-map-marker me-2"></i></a> Laxmi Nagar, Delhi, India</li> */}
 
         </ul>
       </div>
 
       {/* Stay Updated */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-center">
         <h5 className="fw-bold mb-3">Stay Updated</h5>
         <p>Subscribe to our newsletter for the latest updates.</p>
         <form className="d-flex">
