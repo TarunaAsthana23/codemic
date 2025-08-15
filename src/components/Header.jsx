@@ -80,7 +80,7 @@ const Header = () => {
         <div className="d-flex align-items-center d-lg-none">
     <a
       href="https://wa.me/917985877742"
-      className="nav-link text-success me-5"
+      className="nav-link text-success me-4"
       // className="nav-link text-success d-lg-none"
       target="_blank"
       rel="noopener noreferrer"
