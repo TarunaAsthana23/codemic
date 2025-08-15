@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       {/* Quick Links */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-right">
         <h5 className="fw-bold mb-3">Quick Links</h5>
         <ul className="list-unstyled">
           <li><a href="#home" className="text-light text-decoration-none">Home</a></li>

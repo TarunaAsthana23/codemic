@@ -168,12 +168,12 @@ a.navbar-brand {
 }
 
 .fullscreen-menu ul.navbar-nav li.nav-item {
-  margin: 5px 0;
+  margin: 5px 0px 35px;
 }
 
 .fullscreen-menu ul.navbar-nav li.nav-item a.nav-link {
   color: white ;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -185,6 +185,14 @@ a.navbar-brand {
 .fullscreen-menu ul.navbar-nav li.nav-item a.nav-link:hover {
   color: #b968ff !important;
 }
+
+/* Optional: only bigger on md size */
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .fullscreen-menu .nav-link {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+} */
 
 /* WhatsApp icon color override */
 a.nav-link.text-success {
