@@ -195,7 +195,7 @@ a.nav-link.text-success {
     display: flex;
   align-items: center;
   justify-content: center;
-    margin: 0 15px; /* extra spacing */
+    margin: 0 30px; /* extra spacing */
   padding: 0; /* unnecessary padding remove */
 }
 
