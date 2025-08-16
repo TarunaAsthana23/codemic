@@ -5,7 +5,8 @@ import { FaRocket, FaBolt, FaHandshake, FaLock } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <section id="about" className="py-5">
+    <section id="about" className="py-5 bg-light">
+    {/* <section id="about" className="py-5"> */}
         <div className="container text-center py-5">
           <h1 className="fw-bold">Who We Are</h1>
           <div className="underline mx-auto "></div>
@@ -21,11 +22,11 @@ const About = () => {
                 Codemic is a forward-thinking software development company dedicated to transforming ideas into impactful digital solutions. 
                 From startups to enterprises, we help our clients innovate smarter, build faster, and elevate their business with tailor-made technology.
               </p>
-              <div className="quote-box p-3 rounded col-lg-12 px-3 px-md-4 px-lg-0">
+              {/* <div className="quote-box p-3 rounded col-lg-12 px-3 px-md-4 px-lg-0">
               <em>
                 "To bridge the gap between ideas and innovation by delivering cutting-edge, user-focused digital solutions."
               </em>
-            </div>
+            </div> */}
             <div className="row mt-4">
               <div className="col-md-6 mb-3">
                 <FaRocket className="about-icon me-2" size={20} />

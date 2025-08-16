@@ -65,7 +65,7 @@ const Header = () => {
     // <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light bg-white/90 shadow' : 'navbar-light' }`}>
       // <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light custom-scroll-navbar shadow' : 'navbar-light bg-transparent'}`}>
       <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-light custom-scroll-navbar shadow' : 'navbar-light bg-transparent'}`}>
-      <div className="container px-3 px-sm-4 px-md-6">
+      <div className="container px-3 px-sm-4 px-md-6 bg-white">
         {/*   <div className="container-fluid px-3 px-sm-4 px-md-6">
               <div className="container-fluid px-3 px-sm-4 px-md-5 d-flex justify-content-between"> */}
         <a className="navbar-brand d-flex align-items-center" href="#home">

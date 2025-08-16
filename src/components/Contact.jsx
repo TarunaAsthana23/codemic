@@ -4,7 +4,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-5">
+    <section id="contact" className="py-5 bg-light">
+    {/* <section id="contact" className="py-5"> */}
       <div className="contact container text-center py-5 ">
         <h1 className="fw-bold mb-4 text-center">
           Let's Build Something Amazing Together

@@ -64,13 +64,13 @@ a.navbar-brand {
 
 
 /* Container inside navbar */
-.container-fluid {
+/* .header.container {
   width: 100%;
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 /* Hamburger button styling */
 .navbar-toggler {
