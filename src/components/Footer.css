@@ -9,3 +9,8 @@ a.foot_icon_1.me-2 {
     text-decoration: none;
     color: #b968ff;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-md-right {
+    text-align: right;
+  }
+}

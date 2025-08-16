@@ -11,7 +11,7 @@ const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
 
   
-   // ✅ Dynamic Hero Padding Fix
+   //  Dynamic Hero Padding Fix
   useEffect(() => {
     const updateHeroPadding = () => {
       const navbar = document.querySelector(".navbar");
@@ -76,7 +76,7 @@ const Header = () => {
 
              {/* Hamburger button for mobile */}
 
-               {/* WhatsApp icon for mobile - hamburger ke side, mobile pe dikhai de */}
+               {/* WhatsApp icon for mobile -}
                {/* WhatsApp + Hamburger - only show on mobile (d-lg-none) */}
         <div className="d-flex align-items-center d-md-none">
     <a

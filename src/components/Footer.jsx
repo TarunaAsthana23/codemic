@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       {/* Quick Links */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-end">
+      <div className="footer-md-right col-12 col-sm-6 col-md-6 col-lg-3 mb-4 ">
         <h5 className="fw-bold mb-3">Quick Links</h5>
         <ul className="list-unstyled">
           <li><a href="#home" className="text-light text-decoration-none">Home</a></li>
@@ -39,10 +39,10 @@ const Footer = () => {
       </div>
 
       {/* Stay Updated */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-end">
+      <div className="footer-md-right col-12 col-sm-6 col-md-6 col-lg-3 mb-4 ">
         <h5 className="fw-bold mb-3">Stay Updated</h5>
         <p>Subscribe to our newsletter for the latest updates.</p>
-        <form className="d-flex justify-content-end">
+        <form className="d-flex">
           <input type="email" placeholder="Your email" className="form-control me-2" />
           <button type="submit" className="foot_btn">
           {/* <button type="submit" className="btn btn-warning"> */}
