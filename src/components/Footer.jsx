@@ -30,10 +30,14 @@ const Footer = () => {
       <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 ">
         <h5 className="fw-bold mb-3 ">Contact Info</h5>
         <ul className="list-unstyled">
-          <li className="foot_con" ><a href="mailto:hiyasrivastava777@gmail.com" className="foot_con_1" ><i className="fa fa-envelope me-2"></i></a>hiyasrivastava777@gmail.com</li>
-          <li className="foot_con "><a href="tel:+917985877742" className="foot_con_1"><i className="fa fa-phone me-2"></i></a> +91 7985877743</li>
-          <li className="foot_con "><p className="foot_con_1 text-white"><i className="fa fa-map-marker me-2" style={{ color: '#b968ff' }} ></i> Laxmi Nagar, Delhi, India </p></li>
-          {/* <li><a href="" className="foot_con"><i className="fa fa-map-marker me-2"></i></a> Laxmi Nagar, Delhi, India</li> */}
+          <li className="foot_con" ><a href="mailto:hiyasrivastava777@gmail.com" className="foot_con_1" ><i className="fa fa-envelope me-2"></i></a>hello@codemic.in</li>
+          <li className="foot_con "><a href="tel:+918638598944" className="foot_con_1"><i className="fa fa-phone me-2"></i></a> +91 8638598944</li>
+          <li className="foot_con d-flex"><i className="fa fa-map-marker me-2 mt-1" style={{ color: '#b968ff' }}></i> 
+            <span className="text-white"> Haleswar, Tezpur, Sonitpur, Assam, India, 784104 </span>
+          </li>
+
+          {/* <li className="foot_con "><p className="foot_con_1 text-white style={{display: 'flex', flexWrap: 'wrap' }}"><i className="fa fa-map-marker me-2" style={{ color: '#b968ff' }} ></i> Haleswar, Tezpur, Sonitpur, Assam, India, 784104 </p></li>
+          <li><a href="" className="foot_con"><i className="fa fa-map-marker me-2"></i></a> Laxmi Nagar, Delhi, India</li> */}
 
         </ul>
       </div>
@@ -58,8 +62,8 @@ const Footer = () => {
     <div className="d-flex justify-content-between align-items-center bg-dark text-light small">
       © 2025 Codemic. All Rights Reserved.
       <div className="foot_icon">
-        <a href="https://www.linkedin.com/in/pragyaasthana/" className="foot_icon_1 me-2"><i className="fa fa-linkedin"></i></a>
-         <a href="https://www.linkedin.com/in/pragyaasthana/" className="foot_icon_1 me-2"><i className="fa fa-github "></i></a>
+        <a href="https://www.linkedin.com/company/codemic" className="foot_icon_1 me-2"><i className="fa fa-linkedin"></i></a>
+         <a href="https://www.linkedin.com/company/codemic" className="foot_icon_1 me-2"><i className="fa fa-github "></i></a>
         {/* <a href="https://instagram.com" className="foot_icon me-3"><i className="fa fa-instagram "></i></a> */}
         {/* <a href="https://facebook.com" className="foot_icon me-3"><i className="fa fa-facebook "></i></a> */}
         {/* <a href="https://facebook.com" className="text-secondary me-3"><i className="fa fa-facebook text-light"></i></a> */}

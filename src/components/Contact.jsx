@@ -47,34 +47,41 @@ const Contact = () => {
         {/* Right Info */}
 
         <div className="col-lg-6 col-sm-12 d-flex flex-column align-items-center text-center mt-4 mt-lg-0">
-          <h4 className="fw-bold mb-4 ">Contact Information </h4>
+          <h4 className="fw-bold mb-4 fs-2">Contact Information </h4>
 
   
            {/* Address */}
-<strong>Address</strong>
-<div className="d-flex align-items-center gap-2 mb-3">
-  <div className="icon-box d-flex align-items-center justify-content-center">
+           <div className="icon-box d-flex align-items-center justify-content-center ">
     <i className="fa fa-map-marker"></i>
+    <strong className="text-dark px-2 md-2 fs-4">Address</strong>
   </div>
-  <span>Laxmi Nagar, Delhi, India</span>
-</div>
+<div className="d-flex align-items-center gap-2 mb-3">
+  <div>
+  <span className="d-block fs-6">Haleswar, Tezpur</span>
+    <span className="d-block fs-6">Sonitpur, Assam,</span>
+    <span className="d-block fs-6">India</span>
+    <span className="d-block fs-6">784104</span>
+    {/* <span className="d-block fw-bold">784104</span> */}
+  </div>
+  </div>
+
 
 {/* Email */}
-<strong>Email</strong>
-<div className="d-flex align-items-center gap-2 mb-3">
-  <div className="icon-box d-flex align-items-center justify-content-center">
+ <div className="icon-box d-flex align-items-center justify-content-center">
     <i className="fa fa-envelope"></i>
+    <strong className="text-dark px-2 md-2 fs-4">Email</strong>
   </div>
-  <span>hiyasrivastava777@gmail.com</span>
+<div className="d-flex align-items-center gap-2 mb-3">
+  <span className= "d-block fs-6" >hello@codemic.in</span>
 </div>
 
 {/* Website */}
-<strong>Website</strong>
-<div className="d-flex align-items-center gap-2 mb-3">
-  <div className="icon-box d-flex align-items-center justify-content-center">
+<div className="icon-box d-flex align-items-center justify-content-center">
     <i className="fa fa-globe"></i>
+    <strong className="text-dark px-2 md-2 fs-4">Website</strong>
   </div>
-  <span>www.asthana.in</span>
+<div className="d-flex align-items-center gap-2 mb-3">
+  <span className= "d-block fs-6">www.codemic.in</span>
 </div>
 
             
@@ -83,9 +90,9 @@ const Contact = () => {
 
             {/* Social Icons */}
             <div className="social-icons mt-5">
-              <h5 className="fw-bold mb-3">Follow Us</h5>
-              <a href="https://www.linkedin.com/in/pragyaasthana/" aria-label="External link" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin text-light" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/in/pragyaasthana/" aria-label="External link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github text-light" ></i></a>
+              <h5 className="fw-bold mb-3 fs-2">Follow Us</h5>
+              <a href="https://www.linkedin.com/company/codemic" aria-label="External link" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin text-light" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/company/codemic" aria-label="External link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github text-light" ></i></a>
               {/* <a href="https://instagram.com" aria-label="External link" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram text-light" ></i></a> */}
               {/* <a href="https://facebook.com" aria-label="External link" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-official text-light" ></i></a> */}
             </div>

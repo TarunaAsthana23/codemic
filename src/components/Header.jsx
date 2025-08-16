@@ -80,7 +80,7 @@ const Header = () => {
                {/* WhatsApp + Hamburger - only show on mobile (d-lg-none) */}
         <div className="d-flex align-items-center d-md-none">
     <a
-      href="https://wa.me/917985877742"
+      href="https://wa.me/+918638598944"
       className="nav-link text-success me-4"
       // className="nav-link text-success d-lg-none"
       target="_blank"
@@ -125,7 +125,7 @@ const Header = () => {
             <a className={`nav-link ${activeLink === "contact" ? "active" : ""}`} href="#contact" onClick={() => handleLinkClick("contact")}>Contact</a>
           </li>
           <li className="nav-item ms-lg-3">
-            <a href="https://wa.me/917985877742" className="nav-link text-success" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+            <a href="https://wa.me/+918638598944" className="nav-link text-success" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
               <i className="fab fa-whatsapp fa-lg"></i>
             </a>
           </li>

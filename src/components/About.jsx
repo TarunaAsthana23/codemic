@@ -21,7 +21,7 @@ const About = () => {
                 Codemic is a forward-thinking software development company dedicated to transforming ideas into impactful digital solutions. 
                 From startups to enterprises, we help our clients innovate smarter, build faster, and elevate their business with tailor-made technology.
               </p>
-              <div className="quote-box p-3 rounded col-lg-6 px-3 px-md-4 px-lg-0">
+              <div className="quote-box p-3 rounded col-lg-12 px-3 px-md-4 px-lg-0">
               <em>
                 "To bridge the gap between ideas and innovation by delivering cutting-edge, user-focused digital solutions."
               </em>

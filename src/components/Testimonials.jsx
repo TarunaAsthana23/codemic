@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 const testimonials = [
   {
-    name: "Pragya Asthana",
+    name: "Ankita Sharma",
     role: "CEO, BrandWorks",
     image: "/Sets/image_1.webp", // yaha apni image ka URL daal dena
     feedback:
@@ -20,29 +20,29 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Aruna Asthana",
+    name: "Rahul Mehta",
     role: "Director, GreenTech",
     image: "/Sets/image_2.jpg",
     feedback:
       "Their ERP system has streamlined our operations like never before. Highly recommended for any business looking to optimize their processes!",
     rating: 5,
   },
-   {
-    name: "Kunal Asthana",
-    role: "CEO, BrandWorks",
-    image: "/Sets/image_3.webp", // yaha apni image ka URL daal dena
-    feedback:
-      "Codemic transformed our outdated website into a modern, fast, and user-friendly platform. Our conversions have tripled!",
-    rating: 5,
-  },
-  {
-    name: "Rahul Mehta",
-    role: "Director, GreenTech",
-    image: "/Sets/image_4.webp",
-    feedback:
-      "Their ERP system has streamlined our operations like never before. Highly recommended for any business looking to optimize their processes!",
-    rating: 5,
-  },
+  //  {
+  //   name: "Rahul Mehta",
+  //   role: "CEO, BrandWorks",
+  //   image: "/Sets/image_3.webp", 
+  //   feedback:
+  //     "Codemic transformed our outdated website into a modern, fast, and user-friendly platform. Our conversions have tripled!",
+  //   rating: 5,
+  // },
+  // {
+  //   name: "Kunal Asthana",
+  //   role: "Director, GreenTech",
+  //   image: "/Sets/image_4.webp",
+  //   feedback:
+  //     "Their ERP system has streamlined our operations like never before. Highly recommended for any business looking to optimize their processes!",
+  //   rating: 5,
+  // },
 ];
 
 
