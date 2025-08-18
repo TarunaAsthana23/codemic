@@ -63,11 +63,11 @@ const Footer = () => {
       © 2025 Codemic. All Rights Reserved.
       <div className="foot_icon">
         <a href="https://www.linkedin.com/company/codemic" className="foot_icon_1 me-2"><i className="fa fa-linkedin"></i></a>
-         <a href="https://www.linkedin.com/company/codemic" className="foot_icon_1 me-2"><i className="fa fa-github "></i></a>
-        {/* <a href="https://instagram.com" className="foot_icon me-3"><i className="fa fa-instagram "></i></a> */}
-        {/* <a href="https://facebook.com" className="foot_icon me-3"><i className="fa fa-facebook "></i></a> */}
-        {/* <a href="https://facebook.com" className="text-secondary me-3"><i className="fa fa-facebook text-light"></i></a> */}
-        {/* <a href="https://github.com" className="text-secondary"><i className="fa fa-github text-light"></i></a> */}
+         {/* <a href="https://www.linkedin.com/company/codemic" className="foot_icon_1 me-2"><i className="fa fa-github "></i></a> */}
+        <a href="https://www.instagram.com/codemic.in/" className="foot_icon_1 me-2"><i className="fa fa-instagram "></i></a>
+        {/* <a href="https://facebook.com" className="foot_icon me-3"><i className="fa fa-facebook "></i></a>
+        <a href="https://facebook.com" className="text-secondary me-3"><i className="fa fa-facebook text-light"></i></a>
+        <a href="https://github.com" className="text-secondary"><i className="fa fa-github text-light"></i></a> */}
 
       </div>
     </div>
